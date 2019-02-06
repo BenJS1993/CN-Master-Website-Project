@@ -1,0 +1,128 @@
+.div {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-navbar-wrapper.nrd8 .navbar-default.navbar-static-top {
+    background-color: #e60012;
+}
+
+.main-navbar-wrapper nav.navbar {
+    padding: 0;
+}
+
+.navbar.navbar-default {
+    border-color: #bf0010;
+}
+
+
+
+.navbar {
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+#sidebar-wrapper {
+    background: #fff;
+    border-color: #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    height: 100%;
+    left: 312px;
+    margin-left: -350px;
+    overflow: hidden;
+    position: fixed;
+    transform: translateX(0);
+    transition: 300ms;
+    z-index: 1000;
+    top: 72px;
+}
+
+.sidebar-nav li {
+    line-height: 48px;
+    text-indent: 20px;
+    display: table;
+}
+
+#mainNav_switch {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_nintendolabo {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_nintendo3ds {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_amiibo {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_store {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_news {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_support {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_games {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_share {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
+#mainNav_more {
+    height: 88px;
+    width: 88px;
+    margin: 0 0 1px -1px;
+    background: #e60012;
+    transition: background-color .1s ease-in-out 0s;
+}
+
