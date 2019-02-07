@@ -1,8 +1,62 @@
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #666;
+    background-color: #fafafa;
+}
+
 .div {
     display: block;
 }
 
 * {
+    box-sizing: border-box;
+}
+
+a {
+    color: #e60012;
+    text-decoration: none;
+}
+
+element.style {
+    width: 128px;
+    height: 32px;
+    position: relative;
+    margin: 0px;
+    top: 2px;
+    left: 0px;
+    float: left;
+}
+
+.navbar-brand svg {
+    width: 128px;
+    height: 32px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -12,17 +66,60 @@
 
 .main-navbar-wrapper nav.navbar {
     padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 
 .navbar.navbar-default {
     border-color: #bf0010;
 }
 
+.mosaic-item .thumbnail {
+    border: none;
+    margin-bottom: 0;
+    position: relative;
+    padding: 0;
+    transition: none;
+    border-radius: 0;
+    background-color: transparent;
+}
 
+.thumbnail {
+    display: block;
+}
 
 .navbar {
+    position: relative;
     min-height: 50px;
+    margin-bottom: 22px;
     border: 1px solid transparent;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 20px;
+    height: 32px;
+    line-height: 22px;
+    padding: 0px;
+}
+
+.nav-items-right>* {
+    float: right;
+    margin-left: 5px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
 }
 
 #sidebar-wrapper {
@@ -44,6 +141,20 @@
     line-height: 48px;
     text-indent: 20px;
     display: table;
+}
+
+.sidebar-nav li span {
+    height: 48px;
+    position: relative;
+    vertical-align: middle;
+    line-height: 48px;
+    margin-right: 1px;
+    width: 48px;
+}
+
+#sidebar-wrapper.newSideWrapper.sidebar-nav li span.mainN {
+    left: 3px;
+    display: block;
 }
 
 #mainNav_switch {
@@ -126,3 +237,28 @@
     transition: background-color .1s ease-in-out 0s;
 }
 
+.mosaic-item, .section-header, .section-header-small, .date, .pageheader h1, .latest-news-more-news-link a span, .latest-news-more-news a span, .main-navbar-wrapper, .news-article,
+.news-detail-headline, .share-button, .media.txt-top-img .media-body-image-text h2, .media.txt-top-img .media-body.image-text a {
+    font-family: "proxima-nova","Source Sans Pro",Helvetica,Arial,sans-serif;
+    letter-spacing: .6px;
+}
+
+.alps-account-nav {
+    /* position: static; */
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-weight: normal;
+    line-height: 1.8em;
+    font-family: "Helvetica Neue",Helvetica,Arial,Roboto,"Droid Sans","メイリオ",Meiryo,"ＭＳ Ｐゴシック","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic ProN",sans-serif;
+    position: relative;
+    z-index: 10100;
+}
+
+.alps-account-nav .alps-account-button .alps-account-mii-icon {
+    position: relative;
+    background-size: 36px 36px;
+    overflow: hidden;
+}
