@@ -7,9 +7,13 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.42857143;
-    color: #666;
-    background-color: #fafafa;
+    color: white;
+
+    letter-spacing: normal;
+    vertical-align: 12px;
 }
+
+
 
 .div {
     display: block;
@@ -24,10 +28,10 @@ a {
     text-decoration: none;
 }
 
-element.style {
+ element.style {
     width: 128px;
     height: 32px;
-    position: relative;
+    position: absolute;
     margin: 0px;
     top: 2px;
     left: 0px;
@@ -54,12 +58,6 @@ ul, menu, dir {
     padding-inline-start: 40px;
 }
 
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 .main-navbar-wrapper.nrd8 .navbar-default.navbar-static-top {
     background-color: #e60012;
 }
@@ -74,6 +72,9 @@ ul, menu, dir {
 
 .navbar.navbar-default {
     border-color: #bf0010;
+    background-color: #bf0010;
+    margin: 0;
+    padding: 0;
 }
 
 .mosaic-item .thumbnail {
@@ -92,9 +93,8 @@ ul, menu, dir {
 
 .navbar {
     position: relative;
-    min-height: 50px;
-    margin-bottom: 22px;
-    border: 1px solid transparent;
+    min-height: 70px;
+    border: solid;
 }
 
 .navbar-brand {
@@ -110,10 +110,6 @@ ul, menu, dir {
     margin-left: 5px;
 }
 
-.hidden {
-    display: none !important;
-}
-
 svg:not(:root), symbol, image, marker, pattern, foreignObject {
     overflow: hidden;
 }
@@ -126,28 +122,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background: #fff;
     border-color: #e7e7e7;
     border-right: 1px solid #e7e7e7;
-    height: 100%;
     left: 312px;
     margin-left: -350px;
     overflow: hidden;
     position: fixed;
-    transform: translateX(0);
-    transition: 300ms;
-    z-index: 1000;
-    top: 72px;
 }
 
 .sidebar-nav li {
-    line-height: 48px;
-    text-indent: 20px;
-    display: table;
+    line-height: 20px;
+    text-indent: -20px;
+    text-align: center;
+     
 }
 
 .sidebar-nav li span {
     height: 48px;
     position: relative;
     vertical-align: middle;
-    line-height: 48px;
+    line-height: 10px;
     margin-right: 1px;
     width: 48px;
 }
@@ -162,7 +154,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 88px;
     margin: 0 0 1px -1px;
     background: #e60012;
-    transition: background-color .1s ease-in-out 0s;
 }
 
 #mainNav_nintendolabo {
@@ -205,6 +196,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition: background-color .1s ease-in-out 0s;
 }
 
+
+
 #mainNav_support {
     height: 88px;
     width: 88px;
@@ -244,7 +237,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .alps-account-nav {
-    /* position: static; */
+    position: static;
     width: auto;
     height: auto;
     margin: 0;
@@ -262,3 +255,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-size: 36px 36px;
     overflow: hidden;
 }
+
+#sidebar-wrapper.newSideWrapper .sidebar-nav li .subMenuContainer {
+    position: relative;
+    top: 50%;
+}
+
+.srch8 .navbar-static-top .row.navbar-inner-header {
+    padding: 20px 19px 19px 25px;
+}
+
+.navbar-static-top .row.navbar-inner-header {
+    height: 72px;
+    max-width: 1900px;
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
